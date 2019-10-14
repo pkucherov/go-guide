@@ -48,7 +48,7 @@ row before the </tbody></table> line.
 
 -->
 
-# Uber Go Style Guide
+# Splash Damage Go Style Guide
 
 ## Table of Contents
 
@@ -101,18 +101,18 @@ misnomer, since these conventions cover far more than just source file
 formatting—gofmt handles that for us.
 
 The goal of this guide is to manage this complexity by describing in detail the
-Dos and Don'ts of writing Go code at Uber. These rules exist to keep the code
+Dos and Don'ts of writing Go code at Splash Damage. These rules exist to keep the code
 base manageable while still allowing engineers to use Go language features
 productively.
 
-This guide was originally created by [Prashant Varanasi] and [Simon Newton] as
+This guide was originally created by [Prashant Varanasi] and [Simon Newton] from Uber as
 a way to bring some colleagues up to speed with using Go. Over the years it has
 been amended based on feedback from others.
 
   [Prashant Varanasi]: https://github.com/prashantv
   [Simon Newton]: https://github.com/nomis52
 
-This documents idiomatic conventions in Go code that we follow at Uber. A lot
+This documents idiomatic conventions in Go code that we follow at Splash Damage. A lot
 of these are general guidelines for Go, while others extend upon external
 resources:
 
